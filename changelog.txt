@@ -1,0 +1,6 @@
+//CHANGELOG.TXT
+
+//CONTRIBUTORS: Juri Kiin
+
+10/5/2016:
+	- Created repository with current content / design.
