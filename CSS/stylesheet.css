@@ -1,3 +1,5 @@
+
+/* HEADER */
 .header{
     background-color: #1DAB3F;
     height:150px;
@@ -16,6 +18,8 @@
     display: inline;
     font-size: 20px;
 }
+/* NAVBAR */
+
 ul#navbar{
     list-style-type: none;
     text-decoration: none;
@@ -40,6 +44,7 @@ ul#navbar{
     color: whitesmoke;
 }
 
+/* BODY */
 
 body{
     padding: 0;
@@ -47,30 +52,6 @@ body{
     font-family: 'Oswald', serif;
     background-color: ghostwhite;
     min-height: 100%;
-}
-#footerSmall{
-
-    text-align: center;
-    margin:0;
-    bottom:0;
-    background-color: #1DAB3F;
-    padding: 15px 0 15px 0;
-    color:whitesmoke;
-    position: absolute;
-    bottom: 0;
-    width:100%;
-}
-#footer{
-
-    text-align: center;
-    margin:0;
-    bottom:0;
-    background-color: #1DAB3F;
-    padding: 15px 0 15px 0;
-    color:whitesmoke;
-    position: relative;
-    bottom: 0;
-    width:100%;
 }
 .title{
     padding-top:30px;
@@ -82,6 +63,7 @@ body{
 }
 #profile{
     margin: 5% 10% 5% 10%;
+    padding-bottom: 50px;
 }
 #profile_image{
     float:left;
@@ -94,6 +76,8 @@ body{
 #work_organizations{
     text-align: center;
     width:100%;
+    margin:0;
+    padding:0;
 }
 #work_organizations table{
     width:100%;
@@ -143,4 +127,34 @@ ul.links li{
 }
 #contact{
     text-align: center;
+}
+h2{
+    text-align: center;
+}
+
+/* FOOTER */
+
+#footerSmall{
+
+    text-align: center;
+    margin:0;
+    bottom:0;
+    background-color: #1DAB3F;
+    padding: 15px 0 15px 0;
+    color:whitesmoke;
+    position: absolute;
+    bottom: 0;
+    width:100%;
+}
+#footer{
+
+    text-align: center;
+    margin:0;
+    bottom:0;
+    background-color: #1DAB3F;
+    padding: 15px 0 15px 0;
+    color:whitesmoke;
+    position: relative;
+    bottom: 0;
+    width:100%;
 }
