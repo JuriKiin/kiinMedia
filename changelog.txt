@@ -9,3 +9,4 @@
 	- Added contact form to contact page
 	- Changed featured project banners
 	- Updated footers
+	- Updated file structure to optimize upload times
