@@ -13,8 +13,7 @@
 
 <!-- Header -->
     <div class="header">
-
-        <p id="logoheader">kiinMedia<span id="moto"> | Telling Your Story</p>
+        <p id="logoheader" onclick="openInSameTab('index.html')">kiinMedia<span id="moto"> | Telling Your Story</p>
         
 <!-- Navbar -->
         <ul id="navbar">
@@ -24,17 +23,29 @@
         </ul>
     </div>
 
-        <h2 class="title"><u>Want to get in touch?</u></h2>
+    <div id='contactForm'>
+        <form action="https://formspree.io/mati@kiinmedia.com" method="POST">
+            <fieldset>
+                <h1>Get in touch!</h1>
+            </fieldset>
+            <fieldset>
+                <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+            </fieldset>
+            <fieldset>
+                <input placeholder="Your Email Address" type="email" tabindex="2" required>
+            </fieldset>
+            <fieldset>
+                <textarea placeholder="What do you have to say?" tabindex="5" required></textarea>
+            </fieldset>
+            <fieldset>
+                <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+            </fieldset>
+        </form>
+    </div>
 
-<!-- Contact Info -->
-        <div id="contact">
-            <p>Mati Kiin, Executive Producer</p>
-            <p>413-717-0354</p>
-            <p>info@kiinmedia.com</p>
-        </div>
 <!-- Footer -->
     <div id="footerSmall">
-        <p  onclick="openInNewTab('http://jurikiin.com');" id="dev">kiinMedia &copy; 2016</p>
+        <p id="dev">kiinMedia &copy; 2017</p>
     </div>
     
 </body>

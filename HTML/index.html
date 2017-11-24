@@ -6,14 +6,14 @@
 <title>kiinMedia | Home</title>
 <link rel='stylesheet' type='text/css' href='../CSS/stylesheet.css' >
 <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
 <script type="text/javascript" src="../JS/tab.js"></script>
 </head>
 
 <body>
 <!-- Header -->
     <div class="header">
-
-        <p id="logoheader">kiinMedia<span id="moto"> | Telling Your Story</p>
+        <p id="logoheader" onclick="openInSameTab('index.html')">kiinMedia<span id="moto"> | Telling Your Story</span></p>
         
 <!-- Navbar -->
         <ul id="navbar">
@@ -33,36 +33,42 @@
 
 <!-- Main Content -->
     <div id="profile">
-        <img src="../Media/Face.jpg" id="profile_image"/>
-        <div id="profile.info">
-            <p>Producer of creative projects in mission driven media and video supporting the arts, 
-                humanities and communities working for positive social change, Mati Kiin is a videographer
-                located in western Massachusetts. With a background in media production and non-profit development, 
-                Mati is honing the art of telling your story. When presented with an idea, project, or goal, Mati
-                provides a media outlet for demonstration, expression, or education through video.</p>
-        </div>
+        <img src="../Media/Face.jpg" id="profile_image" alt="profile_image"/>
+        <p id='desc_para'>Producer of creative projects in mission driven media and video supporting the arts, 
+            humanities and communities working for positive social change, Mati Kiin is a videographer
+            located in western Massachusetts. With his background in media production and non-profit development, 
+            Mati is honing the art of telling your story. When presented with an idea, project, or goal, Mati
+            provides a media outlet for demonstration, expression, or education through video.</p>
     </div>
-
 <!-- Table of the companies we've worked for -->
     <div id="work_organizations">
-        <h2>See who we've worked with!</h2>
+        <h2><u>See who we've worked with!</u></h2>
             <table>
                 <tr>
-                    <td onclick="openInSameTab('work.html#BCC')">Berkshire Childrens Chorus</td>
-                    <td onclick="openInSameTab('work.html#MCAB')">Mass Commission for the Blind</td>
-                    <td onclick="openInSameTab('work.html#CATA')">Community Access to the Arts</td>
+                    <td onclick="openInSameTab('work.html#BCC')" style="background-image: url(../Media/BCC_SSC.png); background-size:contain;"><p class='projectSelect'>Berkshire Childrens Chorus</p></td>
+                    <td onclick="openInSameTab('work.html#MCB')"><p class='projectSelect'>Mass Commission for the Blind</p></td>
+                    <td onclick="openInSameTab('work.html#CATA')"><p class='projectSelect'>Community Access to the Arts</p></td>
                 </tr>
                 <tr>
-                    <td onclick="openInSameTab('work.html#BSO')">Boston Symphony Orchestra @ Tanglewood</td>
-                    <td onclick="openInSameTab('work.html#CW')">CompuWorks</td>
-                    <td onclick="openInSameTab('work.html#HAVEN')">Human Animal Violence Education Network</td>
+                    <td onclick="openInSameTab('work.html#BSO')"><p class='projectSelect'>Boston Symphony Orchestra @ Tanglewood</p></td>
+                    <td onclick="openInSameTab('work.html#CW')" style="background-image: url(../Media/CompuWorks_SSC.png); background-size:contain;"><p class='projectSelect'>CompuWorks</p></td>
+                    <td onclick="openInSameTab('work.html#HAVEN')"><p class='projectSelect'>Human Animal Violence Education Network</p></td>
                 </tr>
             </table>
     </div>
 
+    <div id="links">
+        <h2>Check me out in these places too!</h2>
+        <ul id="links_list">
+            <li><img src="../Media/vimeo_icon.png" onclick="openInNewTab('https://vimeo.com/kiinmedia')" width="25" height="25" alt="vimeo link"/></li>
+            <li><img src="../Media/linkedIn_icon.png" onclick="openInNewTab('https://vimeo.com/kiinmedia')" width="25" height="25" alt="vimeo link"/></li>
+            <li><img src="../Media/Youtube_icon.png" onclick="openInNewTab('https://www.youtube.com/channel/UCYMhRb7knAATeo8t_c1lnxg')" width="25" height="25" alt="vimeo link"/></li>
+        </ul>
+    </div>
+
 <!-- Footer -->
     <div id="footer">
-            <p  onclick="openInNewTab('http://jurikiin.com');" id="dev">kiinMedia &copy; 2016</p>
+            <p id="dev">kiinMedia &copy; 2017</p>
     </div>
     
 </body>

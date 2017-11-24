@@ -12,11 +12,15 @@
     line-height: 150px;
     color:whitesmoke;
     display: inline;
+    font-family: 'Oswald', sans-serif;
+}
+#logoheader:hover{
+    cursor: pointer;
 }
 #moto{
     margin:0;
     display: inline;
-    font-size: 20px;
+    font-size: 17px;
 }
 /* NAVBAR */
 
@@ -53,6 +57,11 @@ body{
     background-color: ghostwhite;
     min-height: 100%;
 }
+p{
+    font-family: 'Bitter', serif;
+}
+
+
 .title{
     padding-top:30px;
     text-align: center;
@@ -67,12 +76,16 @@ body{
 }
 #profile_image{
     float:left;
-    padding-right: 20px;
+    margin-right: 20px;
+    width:25%;
+    border-radius: 10px;
 }
-#profile.info{
-    padding-left: 20px;
-    float:left;
+
+#desc_para{
+    font-size:15pt;
+    line-height: 22pt;
 }
+
 #work_organizations{
     text-align: center;
     width:100%;
@@ -87,14 +100,16 @@ body{
     
 }
 #dev{
-    cursor: pointer;
+    font-family: 'Bitter', serif;
 }
+
 
 td{
     width:50vw;
     height:25vh;
     position: relative;
     background-color: lightblue;
+    color:black;
 }
 td:hover{
     background-color: lightskyblue;
@@ -104,32 +119,68 @@ td:hover{
     cursor: pointer;
 }
 .project{
-    margin:10%;
+    margin:5% 10% 7% 10%;
 }
 .project p{
     padding:20px 20px 5px 20px;
 }
-video{
-    float:right;
-    margin-left:50px;
-}
-ul.links li{
-    text-decoration: none;
+
+.projectSelect{
+    background-color: rgba(255,255,255,.5);
+    position: absolute;
+    bottom: -8%;
+    width: 98%;
+    text-align: left;
+    line-height: 47pt;
+    left: 0%;
+    padding-left: 2%
 }
 
-.links li:hover{
-    cursor: pointer;
+video{
+    float:right;
+    padding:0;
+    margin-left:50px;
+}
+
+.links{
+    font-size: 25px;
+}
+
+ul.links li{
+    text-decoration: none;
 }
 .links li p{
     padding: 0;
     margin:0;
-    color: purple;
+    color: #2B5B9C;
+    font-family: 'Oswald', sans-serif;
+    width:20%;
+}
+.links li p{
+    cursor: pointer;
 }
 #contact{
     text-align: center;
 }
 h2{
     text-align: center;
+}
+
+h1{
+    text-decoration: underline;
+}
+#links{
+     text-align: center;
+}
+#links_list{
+    padding: 0;
+}
+#links_list li{
+    display: inline;
+    padding:25px 15px 25px 15px;
+}
+#links_list li img:hover{
+    cursor: pointer;
 }
 
 /* FOOTER */
@@ -145,6 +196,7 @@ h2{
     position: absolute;
     bottom: 0;
     width:100%;
+    font-family: 'Bitter', serif;
 }
 #footer{
 
@@ -157,4 +209,64 @@ h2{
     position: relative;
     bottom: 0;
     width:100%;
+    font-family: 'Bitter', serif;
+}
+#backToTop{
+    text-align: right;
+    margin-right: 15%;
+}
+#backToTop h4{
+    text-decoration: underline;
+    color: #2B5B9C;
+    font-size: 25px;
+}
+#backToTop h4:hover{
+    cursor: pointer;
+}
+
+/* CONTACT FORM */
+#contactForm{
+    text-align: center;
+    display: block;
+}
+form{
+    display: inline-block;
+    width:50%;
+    margin-top: 5%;
+}
+fieldset{
+    background-color: #2B5B9C;
+    border:none;
+}
+fieldset h1{
+    color: white;
+}
+input{
+    border: 1px solid black;
+    width:75%;
+    padding: 2% 0;
+    font-size: 15pt;
+}
+textarea{
+    border: 1px solid black;
+    width:75%;
+    font-size: 15pt;
+    padding:2.5% 0;
+    resize:none;
+}
+button{
+    border: 1px solid black;
+    width:25%;
+    border-radius: none;
+    border:none;
+    padding: 2.5% 0;
+    background-color: #1DAB3F;
+    color:white;
+    font-size: 15pt;
+    transition: all .25s ease-in-out;
+}
+button:hover{
+    cursor: pointer;
+    background-color:white;
+    color:black;
 }

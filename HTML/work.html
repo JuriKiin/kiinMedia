@@ -6,6 +6,7 @@
 <title>kiinMedia | Work</title>
 <link rel='stylesheet' type='text/css' href='../CSS/stylesheet.css' >
 <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
 <script type="text/javascript" src="../JS/tab.js"></script>
 </head>
 
@@ -13,8 +14,7 @@
 
 <!-- Header -->
     <div class="header">
-            <p id="logoheader">kiinMedia<span id="moto"> | Telling Your Story</p>
-<!-- Navbar -->
+        <p id="logoheader" onclick="openInSameTab('index.html')">kiinMedia<span id="moto"> | Telling Your Story</p>
         <ul id="navbar">
             <li><a href="index.html">Home</a></li>
             <li><a href="#">Work</a></li>
@@ -34,8 +34,8 @@
         <div class="project">
             <div id="BCC">
                 <h1>Berkshire Childrens Chorus</h1>
-                <video width="50%" poster="../Media/FairRisingSS.png" controls>
-                    <source src="../Media/FAIRUPRISING.mp4" type="video/mp4">
+                <video width="50%" poster="../Media/BCC_SS.png" controls>
+                    <source src="../Media/Video/BCC.mp4" type="video/mp4">
                     Your browser does not support HTML5 video.
                 </video>
                 <p>
@@ -48,12 +48,12 @@
                     ante a consectetur. Integer et metus ex. Etiam ultrices ligula ut sem pretium iaculis.
                 </p>
                 <ul class="links">
-                    <li onclick="openInNewTab('https://vimeo.com/kiinmedia');"><p>Watch More</p></li>
-                    <li onclick="openInNewTab('http://berkshirechildrenschorus.org');"><p>Website</p></li>
+                    <li><p onclick="openInNewTab('https://vimeo.com/album/1464317');">Watch More</p></li>
+                    <li><p onclick="openInNewTab('http://berkshirechildrenschorus.org');">Visit Website</p></li>
                 </ul>
             </div>
         </div>
-            <div id="MCB"
+            <div id="MCB">
                 <div class="project">
                 <h1>Massachusetts Commission for the Blind</h1>
                 <video width="50%" poster="../Media/FairRisingSS.png" controls>
@@ -70,8 +70,8 @@
                     ante a consectetur. Integer et metus ex. Etiam ultrices ligula ut sem pretium iaculis.
                 </p>
                 <ul class="links">
-                    <li onclick="openInNewTab('https://vimeo.com/kiinmedia');"><p>Watch More</p></li>
-                    <li onclick="openInNewTab('http://www.mass.gov/eohhs/gov/departments/mcb');"><p>Website</p></li>
+                    <li><p onclick="openInNewTab('https://vimeo.com/album/2628909');">Watch More</p></li>
+                    <li><p onclick="openInNewTab('http://www.mass.gov/eohhs/gov/departments/mcb');">Visit Website</p></li>
                 </ul>
             </div>
         </div>
@@ -92,8 +92,8 @@
                     ante a consectetur. Integer et metus ex. Etiam ultrices ligula ut sem pretium iaculis.
                 </p>
                 <ul class="links">
-                    <li onclick="openInNewTab('https://vimeo.com/kiinmedia');"><p>Watch More</p></li>
-                    <li onclick="openInNewTab('http://cataarts.org');"><p>Website</p></li>
+                    <li><p onclick="openInNewTab('https://vimeo.com/kiinmedia');">Watch More</p></li>
+                    <li><p onclick="openInNewTab('http://cataarts.org');">Visit Website</p></li>
                 </ul>
             </div>
         </div>
@@ -114,16 +114,16 @@
                     ante a consectetur. Integer et metus ex. Etiam ultrices ligula ut sem pretium iaculis.
                 </p>
                 <ul class="links">
-                    <li onclick="openInNewTab('https://vimeo.com/kiinmedia');"><p>Watch More</p></li>
-                    <li onclick="openInNewTab('http://www.bso.org/micro-sites/tanglewood-music-center/home.aspx');"><p>Website</p></li>
+                    <li><p onclick="openInNewTab('https://vimeo.com/kiinmedia');">Watch More</p></li>
+                    <li><p onclick="openInNewTab('http://www.bso.org/micro-sites/tanglewood-music-center/home.aspx');">Visit Website</p></li>
                 </ul>
             </div>
         </div>
         <div class="project">
             <div id="CW">
                 <h1>CompuWorks</h1>
-                <video width="50%" poster="../Media/FairRisingSS.png" controls>
-                    <source src="../Media/FAIRUPRISING.mp4" type="video/mp4">
+                <video width="50%" poster="../Media/CompuWorks_SS.png" controls>
+                    <source src="../Media//Video/CompuWorks.mp4" type="video/mp4">
                     Your browser does not support HTML5 video.
                 </video>
                 <p>
@@ -136,8 +136,8 @@
                     ante a consectetur. Integer et metus ex. Etiam ultrices ligula ut sem pretium iaculis.
                 </p>
                 <ul class="links">
-                    <li onclick="openInNewTab('https://vimeo.com/kiinmedia');"><p>Watch More</p></li>
-                    <li onclick="openInNewTab('http://compuworks.biz');"><p>Website</p></li>
+                    <li><p onclick="openInNewTab('https://vimeo.com/album/3242121');">Watch More</p></li>
+                    <li><p onclick="openInNewTab('http://compuworks.biz');">Visit Website</p></li>
                 </ul>
             </div>
         </div>
@@ -158,18 +158,21 @@
                     ante a consectetur. Integer et metus ex. Etiam ultrices ligula ut sem pretium iaculis.
                 </p>
                 <ul class="links">
-                    <li onclick="openInNewTab('https://vimeo.com/kiinmedia');"><p>Watch More</p></li>
-                    <li onclick="openInNewTab('http://www.havennetwork.org');"><p>Website</p></li>
+                    <li><p onclick="openInNewTab('https://vimeo.com/159206564');">Watch More</p></li>
+                    <li><p onclick="openInNewTab('http://www.havennetwork.org');">Visit Website</p></li>
                 </ul>
             </div>
         </div>
 
     </div>
 <!-- This is the end of the featured projects section. -->
+    <div id="backToTop">
+        <h4 onclick="openInSameTab('work.html')">Back to top</h4>
+    </div>
 
 <!-- Footer -->
     <div id="footer">
-            <p  onclick="openInNewTab('http://jurikiin.com');" id="dev">kiinMedia &copy; 2016</p>
+            <p id="dev">kiinMedia &copy; 2017</p>
     </div>
     
 </body>
