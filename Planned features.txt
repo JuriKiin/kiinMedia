@@ -3,16 +3,12 @@
 
 index.html:
 	- condensed mission statement
-	- more content in the profile paragraph
-	- images in place of the blue background of the links
-	- more images?
+	- Bit about what types of work he will take / Link to WMLV?
+	- Replace placeholder blue for project links
 
 work.html:
 	- videos for each project w/ thumbnail
 	- description for each project
 	- larger buttons for links to project/organization
-	- names of organization links with name of site
-
-contact.html:
-	- contact form to send email
-	- background images
+	- Get rid of Watch More links for those who don’t have more content
+		on vimeo
