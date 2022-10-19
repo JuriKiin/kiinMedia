@@ -1,75 +1,24 @@
 <!DOCTYPE html>
-<html lang='en'>
-
+<html lang="en">
 <head>
-<meta charset='utf-8'>
-<title>kiinMedia | Home</title>
-<link rel='stylesheet' type='text/css' href='CSS/stylesheet.css' >
-<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
-<script type="text/javascript" src="JS/tab.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://jurikiin.com/KiinStyle/css/kiinStyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="icon" type="image/x-icon" href="./assets/logo-light.png">
+    <title>Kiin Media Company</title>
+
 </head>
+<body class="body-clear">
+    <ks-include data='components/landing/base-landing.html'></ks-include>
+    <ks-include id='services' data='components/services/base-services.html'></ks-include>
+    <ks-include id='work' data='components/works/base-works.html'></ks-include>
+    <ks-include id="footer" data='components/footer.html'></ks-include>
 
-<body>
-<!-- Header -->
-    <div class="header">
-        <p id="logoheader" onclick="openInSameTab('index.html')">kiinMedia<span id="moto"> | Telling Your Story</span></p>
-        
-<!-- Navbar -->
-        <ul id="navbar">
-            <li><a href="#">Home</a></li>
-            <li><a href="HTML/work.html">Work</a></li>
-            <li><a href="HTML/contact.html">Contact</a></li>
-        </ul>
-    </div>
-
-<!-- Title / Mission Statement-->
-    <div class="title">
-        <p>kiinMedia is an independent video production company specializing in documentaries
-            that promote the work of mission driven organizations and people working for cultural
-            arts, advocacy and educational causes.
-        </p>
-    </div>
-
-<!-- Main Content -->
-    <div id="profile">
-        <img src="Media/Face.jpg" id="profile_image" alt="profile_image"/>
-        <p id='desc_para'>Producer of creative projects in mission driven media and video supporting the arts, 
-            humanities and communities working for positive social change, Mati Kiin is a videographer
-            located in western Massachusetts. With his background in media production and non-profit development, 
-            Mati is honing the art of telling your story. When presented with an idea, project, or goal, Mati
-            provides a media outlet for demonstration, expression, or education through video.</p>
-    </div>
-<!-- Table of the companies we've worked for -->
-    <div id="work_organizations">
-        <h2><u>See who we've worked with!</u></h2>
-            <table>
-                <tr>
-                    <td onclick="openInSameTab('HTML/work.html#BCC')" style="background-image: url(Media/BCC_SSC.png); background-size:contain;"><p class='projectSelect'>Berkshire Childrens Chorus</p></td>
-                    <td onclick="openInSameTab('HTML/work.html#MCB')"><p class='projectSelect'>Mass Commission for the Blind</p></td>
-                    <td onclick="openInSameTab('HTML/work.html#CATA')"><p class='projectSelect'>Community Access to the Arts</p></td>
-                </tr>
-                <tr>
-                    <td onclick="openInSameTab('HTML/work.html#BSO')"><p class='projectSelect'>Boston Symphony Orchestra @ Tanglewood</p></td>
-                    <td onclick="openInSameTab('HTML/work.html#CW')" style="background-image: url(Media/CompuWorks_SSC.png); background-size:contain;"><p class='projectSelect'>CompuWorks</p></td>
-                    <td onclick="openInSameTab('HTML/work.html#HAVEN')"><p class='projectSelect'>Human Animal Violence Education Network</p></td>
-                </tr>
-            </table>
-    </div>
-
-    <div id="links">
-        <h2>Check me out in these places too!</h2>
-        <ul id="links_list">
-            <li><img src="Media/vimeo_icon.png" onclick="openInNewTab('https://vimeo.com/kiinmedia')" width="25" height="25" alt="vimeo link"/></li>
-            <li><img src="Media/linkedIn_icon.png" onclick="openInNewTab('https://vimeo.com/kiinmedia')" width="25" height="25" alt="vimeo link"/></li>
-            <li><img src="Media/Youtube_icon.png" onclick="openInNewTab('https://www.youtube.com/channel/UCYMhRb7knAATeo8t_c1lnxg')" width="25" height="25" alt="vimeo link"/></li>
-        </ul>
-    </div>
-
-<!-- Footer -->
-    <div id="footer">
-            <p id="dev">kiinMedia &copy; 2017</p>
-    </div>
-    
+    <script type="text/javascript" src="https://jurikiin.com/local-includes/local-includes.js"></script>
 </body>
 </html>

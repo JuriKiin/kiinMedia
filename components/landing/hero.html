@@ -1,0 +1,31 @@
+<style>
+    #hero {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        object-fit: cover;
+    }
+    .heroSub {
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+        margin: 30vh auto 0 auto;
+        width: max-content;
+        display: block;
+    }
+    .heroSub a, .heroSub a:active, .heroSub a:focus {
+        text-decoration: none !important;
+        color: inherit;
+    }
+</style>
+
+<section>
+    <ks-include data='components/landing/videoplayer.html'></ks-include>
+    <h1 style="font-family: 'Raleway', sans-serif; font-weight: 900; color: var(--accent); font-size:150px" 
+        class="margin-5 margin-left-10">
+        Capturing Your <br> Vision.
+    </h1>
+    <a class="heroSub" href="#ourwork"><img src="../../assets/Search.png" width="50" height="50"></a>
+</section>
