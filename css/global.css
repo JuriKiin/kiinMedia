@@ -1,13 +1,4 @@
-:root {
-    --dark: #08090A;
-    --gray: #57585E;
-    --green: #69995D;
-    --white: #FFFFFF;
-    --accent: #FF6B6B;
-
-    --fatFont: 'Raleway', sans-serif;
-}
-
-.bg-dark {
-    background-color: var(--dark);
+.hero {
+    height: 100vh;
+    align-content: center;
 }
