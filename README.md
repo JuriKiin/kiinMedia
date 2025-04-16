@@ -1,6 +1,6 @@
 # kiinMedia
 ## View the website live
-https://kiin.media
+https://kiinmedia.com
 
 
 # Version History
